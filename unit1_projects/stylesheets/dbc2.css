@@ -1,0 +1,98 @@
+
+div { border-radius: 5px }
+
+#header { 
+          background-color: black;
+          height: 150px ;
+          margin-bottom: 5px;
+          margin-top: -30px;}
+
+span {color: #ccccff;}
+          
+#header p {color: #ffcccc; 
+           font-family: Impact;
+           text-align: center;
+           font-size: 35px;
+           padding: 40px;}
+          
+.sidebar {border: 3px solid black; 
+          float: left;
+          height: 350px;
+          width: 10%;
+          background-color: #336699; 
+          margin-bottom: 5px;
+          padding-top: 150px;}
+        
+.sidebar ul {font-family: Impact;
+          padding: 50px;
+          color: #ffcccc;
+          font-size: 20px;
+          }
+        
+.content{ 
+        
+        float: right;
+        height: 80%;
+        width: 89%;
+        background-color: white; 
+        margin-bottom: 5px;}
+        
+#footer {
+         clear: both;
+         background-color: black;
+         height: 50px;
+         text-align: center;
+         font-family: Impact;
+         color: #ffcccc;
+         font-size: 20px;
+         padding-top: 20px;}
+         
+h3 {font-family: Impact;
+    color: #003366;}
+
+h2 {font-family:Impact;
+    color: #ffcccc;
+    text-align: center;}
+
+h1 {font-family:Impact;
+    color: #003366;
+    text-align: center;}
+    
+ol {font-family: sans-serif;
+   font-weight: bold;
+   }
+
+ul {font-family: sans-serif;
+   font-weight: bold;
+   }
+
+img {position:absolute;
+     border: 5px solid black;
+     margin-left:700px;
+     margin-top: 20px;
+     border-radius: 40px;}
+
+#caption {position:absolute;
+          margin-left:720px;
+          margin-top: 30px;
+          border-radius: 40px;
+          color:white;
+          font-family: impact;
+          font-size:30px;
+          }
+
+.text {position:absolute;
+      padding: 30px;
+      
+      width: 70%;
+      margin-left:100px;}
+
+a:hover { font-weight: bold;
+          color: white;
+        }
+
+a { text-decoration: none;
+    color: #ffcccc;}
+        
+
+    
