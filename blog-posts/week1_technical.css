@@ -39,7 +39,7 @@ h1 { text-align: center;
   #netflix {border:2px solid black;
             font-family: sans-serif;
             font-weight: bold;
-         height: 600px;
+         height: 610px;
          width: 375px;
          float:left;
           margin: 20px;
@@ -48,7 +48,7 @@ h1 { text-align: center;
   #twitter {border:2px solid black;
             font-family: sans-serif;
             font-weight: bold;
-         height: 600px;
+         height: 610px;
          width: 375px;
          float:left;
           margin: 20px;
@@ -57,7 +57,7 @@ h1 { text-align: center;
   #bbc {border:2px solid black;
         font-family: sans-serif;
             font-weight: bold;
-         height: 600px;
+         height: 610px;
          width: 375px;
         float: left;
          margin: 20px;
@@ -70,6 +70,8 @@ h1 { text-align: center;
         display:inline-block;
         margin: 27px;}
 
+h4 { font-family:sans-serif;
+      text-align: center;}
     
 
 /*#footer {
