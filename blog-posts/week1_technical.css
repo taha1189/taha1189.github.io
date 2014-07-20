@@ -1,0 +1,94 @@
+div { border-radius: 5px }
+
+#header { 
+          background-color: black;
+          height: 150px ;
+          margin-bottom: 5px;
+          margin-top: -30px;}
+
+#header p {color: white; 
+           font-family: Impact;
+           text-align: center;
+           font-size: 35px;
+           padding: 40px;}
+
+span {color: #0099cc;}
+
+h1 { text-align: center;
+     font-family: Impact;}
+          
+
+/*.sidebar {border: 3px solid black; 
+          float: left;
+          height: 350px;
+          width: 10%;
+          background-color: #336699; 
+          margin-bottom: 5px;
+          padding-top: 150px;}*/
+        
+        
+.content{position: absolute; 
+        
+        
+        height: 175%;
+       
+         
+        margin-bottom: 5px;}
+        
+
+  #netflix {border:2px solid black;
+            font-family: sans-serif;
+            font-weight: bold;
+         height: 600px;
+         width: 375px;
+         float:left;
+          margin: 20px;
+          padding: 10px;}
+
+  #twitter {border:2px solid black;
+            font-family: sans-serif;
+            font-weight: bold;
+         height: 600px;
+         width: 375px;
+         float:left;
+          margin: 20px;
+          padding: 10px;}
+
+  #bbc {border:2px solid black;
+        font-family: sans-serif;
+            font-weight: bold;
+         height: 600px;
+         width: 375px;
+        float: left;
+         margin: 20px;
+        padding: 10px;}
+
+    img {height:300px;
+         width: 375px;
+         border: 2px solid black;
+         border-radius: 5px;
+        display:inline-block;
+        margin: 27px;}
+
+    
+
+/*#footer {
+         
+         background-color: black;
+         height: 50px;
+         text-align: center;
+         font-family: Impact;
+         color: #ffcccc;
+         font-size: 20px;
+         }*/
+
+
+a:hover { font-weight: bold;
+          color: white;
+        }
+
+a { text-decoration: none;
+    color: #ffcccc;}
+        
+
+    

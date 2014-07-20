@@ -1,0 +1,54 @@
+div { border-radius: 5px }
+
+#header { 
+          background-color: black;
+          height: 150px ;
+          margin-bottom: 5px;
+          margin-top: -30px;}
+
+#header p {color: #ffcccc; 
+           font-family: Impact;
+           text-align: center;
+           font-size: 35px;
+           padding: 40px;}
+
+span {color: #0099cc;}
+          
+
+.sidebar {border: 3px solid black; 
+          float: left;
+          height: 350px;
+          width: 10%;
+          background-color: #336699; 
+          margin-bottom: 5px;
+          padding-top: 150px;}
+        
+        
+.content{ 
+        
+        float: right;
+        height: 80%;
+        width: 89%;
+        background-color: white; 
+        margin-bottom: 5px;}
+        
+#footer {
+         clear: both;
+         background-color: black;
+         height: 50px;
+         text-align: center;
+         font-family: Impact;
+         color: #ffcccc;
+         font-size: 20px;
+         padding-top: 20px;}
+
+
+a:hover { font-weight: bold;
+          color: white;
+        }
+
+a { text-decoration: none;
+    color: #ffcccc;}
+        
+
+    
