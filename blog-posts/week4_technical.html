@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="week4_cultural.css"/>
+		<title>Cultural Blog</title>
+	</head>
+	<body>
+	    <div id="header">
+	        <p><span>DBC</span> | Taha Siddiqui</p>
+	    
+	    </div>
+	    <div id="pic">
+	   		 <img src="https://avatars2.githubusercontent.com/u/7757415?s=460" />
+	   </div>
+	</a>
+	   <!-- <div class="sidebar"></div>-->
+	    <div class="content">
+
+	    	<div id="menu">
+	    		<a href="http://taha1189.github.io/" target="_blank"><h2>Blog Posts</h2></a>
+	    		<a href="https://plus.google.com/u/0/communities/109134201019477127617" target="_blank"><h2>September Lions</h2></a>
+	    		<a href="https://www.facebook.com/groups/devbootcamp.help/" target="_blank"><h2>DBC Help</h2></a>
+	    	</div>
+			
+	    	<div id="text">
+	    		<h3>Enumerable#group_by</h3>
+
+	    		
+	    		<p>
+	    			The purpose of enumerable mixins is to allow the user the ability to sort throught data by traversing through it using different searching methods. The one in particular that we will be taking a look at is the enumberable group_by method. The group_by method sorts data into a hash. After traversing the data and searching for the specific sorting criteria described by the group_by method, the returned hash will consist of keys that are the evaluated result of searching the block and the values are the arrays of elements in the collection that are associated with the specific keys. 
+	    			
+	    		</p>
+	    		<h4>Example 1</h4>
+	    		<p>
+	    			
+	    			(1..6).group_by {|i| i%3}  </br>
+	    			 #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}
+	    		</p>
+	    		<h4>Example 2</h4>
+	    		<p>
+	    		
+        			  birds = ["Golden Eagle", "Gyrfalcon", "American Robin", </br>
+           			 "Mountain BlueBird", "Mountain-Hawk Eagle"]			  </br>
+					  grouped_by_first_letter = birds.group_by { |s| s[0] }   </br></br>
+ 
+					  # {"G"=>["Golden Eagle", "Gyrfalcon"], "A"=>["American Robin"],</br>
+					  # "M"=>["Mountain BlueBird", "Mountain-Hawk Eagle"]}			 </br>
+	    		</p>
+	    	</div>
+	    	
+	    </div>
+	    
+	   <!-- <div id="footer"></div>-->
+	</body>
+</html>
