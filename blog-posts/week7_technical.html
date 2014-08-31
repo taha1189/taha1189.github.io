@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="week7_technical.css"/>
+		<title>Technical Blog</title>
+	</head>
+	<body>
+	    <div id="header">
+	        <p><span>DBC</span> | Taha Siddiqui</p>
+	    
+	    </div>
+	    <div id="pic">
+	   		 <img src="https://avatars2.githubusercontent.com/u/7757415?s=460" />
+	   </div>
+	</a>
+	   <!-- <div class="sidebar"></div>-->
+	    <div class="content">
+
+	    	<div id="menu">
+	    		<a href="http://taha1189.github.io/" target="_blank"><h2>Blog Posts</h2></a>
+	    		<a href="https://plus.google.com/u/0/communities/109134201019477127617" target="_blank"><h2>September Lions</h2></a>
+	    		<a href="https://www.facebook.com/groups/devbootcamp.help/" target="_blank"><h2>DBC Help</h2></a>
+	    	</div>
+			
+	    	<div id="text">
+	    		<h3>SQL Injection</h3>
+
+	    		<img src = "http://imgs.xkcd.com/comics/exploits_of_a_mom.png"/>
+
+	    		
+	    		<p>	
+
+	    			The idea behind SQL injection is simple. At its most basic level, the objective of SQL injection is to compromise the integrity of a database. All user data is stored in databases. A primary example is that of a bank account. For a user to access their individual account, they would enter their username and password which will then be matched with the username and password stored in the banks' database. If it is a match, the user is granted access, otherwise they are not. Between the users input and the info stored in the database the computer communicated between the two layers with Structured Query Language (SQL). It is here at the application layer where hackers can infiltrate the database using SQL injection. Successful hacks grants hackers access to users passwords ultimately allowing them privildged access the the users bank account and finances. The scary part of all of this is that SQL injection is relatively easy for more experienced hackers if there are no precautions put in place to keep the database safe from attack!
+
+
+
+	    			<ul>These are a few of the most practical defenses against SQL injection:
+	    				<li>Prepared statements or "Parameterized Queries" ensure that developers don't leave any holes in the SQL code. Defining all the SQL code beforehand and then passing each parameter to it allows the database to tell the difference between what it is receiving to make sure it is actual code and not just data.</li>
+	    				<li>Another method is to define and store procedures in the actual database and then call the procedure from an application as opposed to letting the user input data at all. This eliminates the risk of letting hackers play around with in the system all together</li>
+	    				<li>A final precaution the developers could implement is to escape all user input all together. Doing so will ensure that the database does not mistake input with SQL code written by the developer, avoiding the possibility of SQL injection attacks</li>
+	    			</ul>
+
+
+					
+	    			
+	    		</p>
+
+	    		<p>
+	    			<h3>Compare SQL databases with NoSQL databases</h3>
+	    			SQL databases are strictly table based structures where as NoSQL offers a little more felxibility. They can incorporate key-value pair structures like hashes, graphs, or even documents. They do not adhere to a standard schema or structure the way SQL databases do. SQL databases use SQL to manipulate data within the database as opposed to NoSQL which differs from one database to another. SQL is better for more complex queries because they can handle the intense enviornment as opposed to NoSQL which is not equipped for the more complex queries. In general it would seem that SQL adheres to a stricter set of standards which when it comes to choosing between which database structure to work with, seems to be a positive. 
+
+					
+				</p>
+
+				<p>
+					<h3>What are some of the things you can do to optimize SQL queries?</h3>
+
+					There are several ways to optimize SQL queries, some are common practice and others a little less obvious. 
+					<ul>Here are a few ways to run advanced queries on a large dataset in an efficient manner:
+						<li>Index the coloumns to optimize search results</li>
+						<li>Use postfix wildcards as opposed to full wildcard searches which can greatly slow down performance</li>
+						<li>Avoid the NOT operator. It is quicker to search for what you are looking for rather than go through everything you are trying to avoid</li>
+						<li>Use the smallest data type possible for each given value</li>
+						<li>limit the number of rows needed to be returned</li>
+					</ul>
+
+
+				</p>
+	    			
+	    	</div>
+	    	
+	    </div>
+	    
+	   <!-- <div id="footer"></div>-->
+	</body>
+</html>
